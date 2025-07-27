@@ -30,7 +30,7 @@ jobs:
           gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
 
       - name: Build Docker image
-        run: docker build -t us-central1-docker.pkg.dev/sunlit-vortex-459609-m8/my-repo/fastapi:latest .
+        run: docker build -t us-central1-docker.pkg.dev/bright-cabinet-461509-j7/my-repo/fastapi:latest .
 
       - name: Push Docker image
         run: docker push us-central1-docker.pkg.dev/bright-cabinet-461509-j7/my-repo/fastapi:latest
