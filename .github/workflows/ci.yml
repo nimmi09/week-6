@@ -38,7 +38,7 @@ jobs:
       - name: Get GKE credentials
         uses: google-github-actions/get-gke-credentials@v1
         with:
-          cluster_name: autopilot-fastapi-cluster-1
+          cluster_name: demo-gke-iris-cluster
           location: us-central1
           project_id: bright-cabinet-461509-j7
 
